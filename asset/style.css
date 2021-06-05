@@ -1,6 +1,9 @@
 *{
     font-family: 'Odibee Sans', cursive;
+    box-sizing: border-box;
 }
+
+html { overflow-y: scroll; }
 
 .text-sm{
     font-size: 10px;
@@ -11,9 +14,9 @@
 }
 
 .head{
-    height: 90%;
+    height: 100%;
     width: 100%;
-    background: url(./img/download.jpeg) no-repeat center;
+    background: url(./img/bg-space.jpeg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -48,7 +51,19 @@
 
 .sec-bg{
     height: 60%;
-    background-image: url(./img/bg-space.jpeg);
+    background-image: url(./img/download.jpeg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.product-1{
+    color:brown;
+    background-image: url(./meme/meme1.jpeg);
+    background-size: cover;
+    height: 30ch;
+    /* padding: 8rem 0 0; */
+}
+
+.product-title{
+    padding: 95px 0 0;
 }
