@@ -1,0 +1,54 @@
+*{
+    font-family: 'Odibee Sans', cursive;
+}
+
+.text-sm{
+    font-size: 10px;
+}
+
+.text-md{
+    font-size: 2rem;
+}
+
+.head{
+    height: 90%;
+    width: 100%;
+    background: url(./img/download.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.head .title{
+    width: 100%;
+}
+
+.head .head-banner h1{
+    color: aliceblue;
+    font-size: 6rem;
+}
+
+.head-subbanner p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.about{
+    height: 50%;
+    background-color: #FFF;
+}
+
+.about h2{
+    font-size: 4rem;
+}
+
+.sec-bg{
+    height: 60%;
+    background-image: url(./img/bg-space.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
