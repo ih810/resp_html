@@ -57,13 +57,13 @@ html { overflow-y: scroll; }
 }
 
 .product-1{
-    color:brown;
-    background-image: url(./meme/meme1.jpeg);
+    color:#FFF;
+    background-image: url(./img/bgp.jpeg);
     background-size: cover;
-    height: 30ch;
-    /* padding: 8rem 0 0; */
 }
 
-.product-title{
-    padding: 95px 0 0;
+.product-content {
+    padding: 1.5em;
+    background: rgb(159,159,159);
+    background: linear-gradient(0deg, rgba(159,159,159,0.2187979294478528) 0%, rgba(56,54,50,0.5715586656441718) 100%);
 }
