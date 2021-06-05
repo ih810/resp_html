@@ -56,30 +56,18 @@ html { overflow-y: scroll; }
     background-attachment: fixed;
 }
 
-.grid {
-    background: #DDD;
-  }
-  
-  /* clear fix */
-  .grid:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  
-  /* ---- .grid-item ---- */
-  
-  .grid-sizer,
-  .grid-item {
-    width: 33.333%;
-  }
-  
-  .grid-item {
-    float: left;
-  }
-  
-  .grid-item img {
-    display: block;
-    max-width: 100%;
-  }
-  
+.album-title{
+    
+}
+
+.product-1{
+    color:brown;
+    background-image: url(./meme/meme1.jpeg);
+    background-size: cover;
+    height: 30ch;
+    /* padding: 8rem 0 0; */
+}
+
+.product-title{
+    padding: 95px 0 0;
+}

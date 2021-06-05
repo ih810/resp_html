@@ -31,19 +31,3 @@
 </div>
 
 <-->
-
-                <div class="grid">
-                    <div class="grid-item grid-item--width2"><img src="./asset/meme/meme1.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme2.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme3.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme4.png" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme5.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme6.png" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme7.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme8.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme9.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme10.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme11.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme12.jpeg" alt=""></div>
-                    <div class="grid-item"><img src="./asset/meme/meme13.jpeg" alt=""></div>
-                </div>
