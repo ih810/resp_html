@@ -1,12 +1,19 @@
-var grid = document.querySelector('.grid');
+var nav = document.querySelector('nav');
 
-var msnry = new Masonry( grid, {
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-sizer',
-  percentPosition: true
-});
+window.addEventListener('scroll', function(){
+  if(window.pageYOffset > 100){
+    nav.classList.add('bg-dark', 'shadow');
+  } else {
+    nav.classList.remove('bg-dark', 'shadow');
+  }
+})
 
-imagesLoaded( grid ).on( 'progress', function() {
-  // layout Masonry after each image loads
-  msnry.layout();
-});
+window.addEventListener(resize, ResizeWindow);
+
+function ResizeWindow( ){
+  var dataSpyList = [].slice.call( document.querySelectorAll('[data-spy="scroll"]'));
+
+  dataSpyList.forEach(function(dataSpyElement){
+    bootstrap.Scrollspy.getInstance(dataSpyElement).refresh();
+  });
+}
