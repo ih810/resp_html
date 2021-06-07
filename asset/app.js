@@ -8,12 +8,10 @@ window.addEventListener('scroll', function(){
   }
 })
 
-window.addEventListener(resize, ResizeWindow);
-
-function ResizeWindow( ){
-  var dataSpyList = [].slice.call( document.querySelectorAll('[data-spy="scroll"]'));
-
-  dataSpyList.forEach(function(dataSpyElement){
-    bootstrap.Scrollspy.getInstance(dataSpyElement).refresh();
-  });
+const navbarN = document.body.querySelector('#navbarN');
+if (navbarN) {
+  new bootstrap.ScrollSpy (document.body, {
+    target: '#navbarN',
+    offset: 74,
+  })
 }
