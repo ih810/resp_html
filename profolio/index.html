@@ -34,7 +34,7 @@
                 aria-expanded="false"
                 aria-lable="Toggle Navbar"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"> </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="ms-auto" id="navbar-con">
@@ -43,7 +43,7 @@
                                 <a href="#id-home" class="nav-link text-white fs-3">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#id-tag" class="nav-link text-white fs-3">TAG LINE</a>
+                                <a href="#id-tag" class="nav-link text-white fs-3">MOTTO</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#id-album" class="nav-link text-white fs-3">PROJECT</a>
@@ -60,29 +60,31 @@
             </div>
         </nav>
         <div id="id-home" class="head d-flex justify-content-center align-items-center">
-            <section>
+            <section class="w-50">
                     <div class="head-banner">
-                        <div class="title text-center">
+                        <div class="title text-center ">
                             <h1>IVAN HONG</h1>
                         </div>
                     </div>
                     <div class="head-subbanner">
-                        <div class="title-text text-center">
-                            <p>Meme enthusiast, Master of procrastination, 21 years of experience on being alive</p>
+                        <div class="title-text text-center ">
+                            <p>Meme enthusiast, Master of procrastination, I'll probably finish this line later</p>
                         </div>
                     </div>
             </section>
         </div>
         <div id="id-tag" ></div>
-        <div class="tag-line">
-            <section class="tag-line-box">
-                <div class="d-flex align-items-center justify-content-center">
-                    <div>
-                        <h2 class="text-lg">We are what we repeatedly do. Excellence, then, is not an act, but a habit.</h2>
+        <div class="tag-line d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6 tag-img text-center">
+                        <img src="./asset/img/aristotle.jpeg" alt="aristotle">
+                    </div>
+                    <div class="col-md-6 tag-text">
+                        <h2 class="text-lg">I am putting this picture here so you think this is a famous quote, but its not.</h2>
                         <p class="text-md">-Aristotle</p>
+                        <p class="text-xsm">never said that</p>
                     </div>
                 </div>
-            </section>
         </div>
             <div class="sec-bg">
                 <div class="spacing">
@@ -98,7 +100,7 @@
                 </div>
                 <div class="row p-3">
                     <div class="col-lg-3 col-md-6 col-sm-12 p-2 d-flex justify-content-center">
-                        <div class="product">
+                        <div class="product" id="id-abt">
                             <div class="product-content">
                                 <h2 class="product-title">About Me</h2>
                                 <p class="product-body">You are literally looking at it, the button below will take you back to the top of this page, it is ill-adviced to press the said button. However, if you insist, nothing is stopping you.</p>
@@ -175,21 +177,21 @@
             </section>
         </div>
         <div id="id-about"></div>
-        <div class="about pt-5">
+        <div class="about pt-3">
             <section>                
-                <div class="row">
+                <div class="row p-2">
                     <div class="slideshow-container col-md-6">
                         <div class="mySlides fade">
                             <img class="slideImg" src="./asset/img/slide1.JPG" alt="s_mt">
                         </div>
             
-                        <div class="mySlides fade">
+                        <!-- <div class="mySlides fade">
                             <img class="slideImg" src="./asset/img/slide2.JPG" alt="m_hat">
                         </div>
             
                         <div class="mySlides fade">
                             <img class="slideImg" src="./asset/img/slide3.JPG" alt="s_boat">
-                        </div>
+                        </div> -->
                     </div>
                     <div class="abt-title col-md-6">
                         <h2 class="text-lg"> I am Ivan, incase you haven't noticed</h2>
@@ -206,15 +208,15 @@
         <div id="id-contact"></div>
         <div class="contanct">
             <section>
-                <div class="row p-3 text-center">
+                <div class="row p-3 text-center align-items-center">
                     <div class="ft col-lg-12">
                         <h2 class="text-lg">Contact Me</h2>
-                        <p class="text-md">Talk to me for bad jokes and cringe conversation, dont be shy, I dont bite.</p>
+                        <p class="text-md">Dont be shy, I dont bite.</p>
                         <ul class="call-list">
-                            <li class="call-list-item"><a href="#"><i class="fab fa-instagram"></i></a></li></li>
-                            <li class="call-list-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li class="call-list-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                            <li class="call-list-item"><a href="#"><i class="far fa-envelope"></i></i></a></li>
+                            <li class="call-list-item"><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li></li>
+                            <li class="call-list-item"><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                            <li class="call-list-item"><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
+                            <li class="call-list-item"><a href="#"><i class="far fa-envelope fa-3x"></i></i></a></li>
                         </ul>
                     </div>
                 </div>
