@@ -28,10 +28,34 @@ body{
     font-size: 0.7rem;
 }
 
+.bg-dark{
+    background-color: rgb(33, 44, 68)!important;
+}
+
 .navbar-brand{
     width: 90px;
     height: 90px;
 }
+
+.nav-item{
+    padding: 0px 30px;
+}
+
+.nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: width .3s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
 
 .navbar-brand img{
     width: 100%;
@@ -45,7 +69,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 .head .title{
     width: 100%;
@@ -66,14 +89,15 @@ body{
 }
 
 .tag-line{
-    height: fit-content;
+    height: 90vh;
     width: 100%;
-    margin: 40vh 0 40vh;
+    flex-shrink: auto;
 }
 
-.tag-line-box{
-    margin: 10vh 0 10vh;
+.tag-img img{
+    width: 60%;
 }
+
 
 
 .sec-bg{
@@ -101,9 +125,11 @@ body{
 .product-content{
     padding: 1.5em;
     background: linear-gradient(
-        hsl(0 0% 0% / 0),
-        hsl(0 0% 0% / 1)
-    );
+        0deg, rgba(0,0,0,1) 0%,
+         rgba(145,143,143,0.1) 75%,
+          rgba(232,230,230,0) 92%,
+           rgba(255,255,255,0) 100%
+           );
     transform: translateY(75%);
     transition: transform 500ms ease;
 }
@@ -144,10 +170,22 @@ body{
     border-radius: 0.5em;
 }
 
+#id-abt{
+    background-image: url(./img/abt_me_preview.png);
+}
+
 .about .row{
     margin: 10vh 0 0;
     justify-content: center;
     align-items: center;
+}
+
+.about .slideshow-container{
+    width: 50%;
+}
+
+.about .slideshow-container .mySlides img{
+    width: 100%;
 }
 
 .third-bg{
@@ -166,16 +204,58 @@ body{
 .far{
     font-size: 3rem;
     text-decoration: none;
-    color: grey;
+    color: rgb(131, 131, 131);
 }
 
 .call-list{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-list-item{
-    padding: 20px;
-    display: inline;
+    position: relative;
+    display: block;
+    color: #666;
+    height: 60px;
+    width: 60px;
+    background: #333030;
+    line-height: 20px;
+    border-radius: 50%;
+    margin:  15px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.call-list-item::before{
+    position: absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    background: #FFF;;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.call-list-item:hover::before{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #FFF;
+}
+
+.call-list-item:hover{
+    box-shadow: 0 0 15px #FFF;
+    text-shadow: 0 0 15px #FFF;
+}
+
+.fab:hover,
+.far:hover{
+    color: #74aadf;
 }
 
 .footer{
