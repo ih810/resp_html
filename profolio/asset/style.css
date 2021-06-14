@@ -204,7 +204,7 @@ body{
 .far{
     font-size: 3rem;
     text-decoration: none;
-    color: rgb(131, 131, 131);
+    color: rgb(233, 233, 233);
 }
 
 .call-list{
@@ -217,14 +217,12 @@ body{
 .call-list-item{
     position: relative;
     display: block;
-    color: #666;
-    height: 60px;
-    width: 60px;
-    background: #333030;
+    color: rgb(219, 219, 219);
+    background: #4e4e4e;
     line-height: 20px;
-    border-radius: 50%;
-    margin:  15px;
-    padding-top: 5px;
+    border-radius: 40%;
+    margin: 15px;
+    padding: 10px;
     cursor: pointer;
     transition: .5s;
 }
@@ -234,7 +232,7 @@ body{
     content:"";
     top: 0;
     left: 0;
-    background: #FFF;;
+    background: #4e4e4e;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -245,16 +243,19 @@ body{
 
 .call-list-item:hover::before{
     transform: scale(1.2);
-    box-shadow: 0 0 15px #FFF;
+    box-shadow: 0 0 15px rgb(95, 95, 95);
 }
 
 .call-list-item:hover{
-    box-shadow: 0 0 15px #FFF;
-    text-shadow: 0 0 15px #FFF;
+    box-shadow: 0 0 15px rgb(95, 95, 95);
+    text-shadow: 0 0 15px rgb(95, 95, 95);
 }
 
-.fab:hover,
-.far:hover{
+.fa-instagram:hover{
+    color: rgb(185, 51, 129);
+}
+
+.fa-facebook-square:hover{
     color: #74aadf;
 }
 
