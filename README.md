@@ -20,7 +20,7 @@ Polygon Sides: adjust the sides of your polygon, e.g. 3 = triangle
 After you have selected your color size,  
 You can decide what you want to draw on the canvas.
 
-### Line Function
+## Line Function
 
 ![Line](./assets/images/readMeImg/Line.png)  
 Click on this box to select the line function  
@@ -29,7 +29,7 @@ Then drag your cursor to form a straight line.
 ![Line](./assets/images/readMeImg/lineDraw.png)  
 
 
-### Curve Function  
+## Curve Function  
 
 #### Quadratic curve  
 Quadratuc curve only have one control point  
@@ -37,7 +37,7 @@ Quadratuc curve only have one control point
 ![Curve](./assets/images/readMeImg/Arc.png)  
 Click on this box to select the arc function  
 Click on the canvas to register the starting position of the arc  
-Drag your cursor to form a straight line  
+Click on a second location to register the ending position of the arc   
 Click on the canvas for the second time to set the contorl point of the arc  
 ![CurveDraw](./assets/images/readMeImg/arcDraw.png)  
 
@@ -53,10 +53,18 @@ Click on a third location to register the first control point
 Click on a forth location to register the second control point  
 ![Curve](./assets/images/readMeImg/bCurve.png)  
 
-### Draw Rectangel
+## Draw Rectangel  
 
 ![Rect](./assets/images/readMeImg/Rect.png)  
 Click on this box to select the rectangel function  
 Click on the canvas to register the starting position of the rectangel  
 Drag the cursor to form a rectangel  
 ![Rect](./assets/images/readMeImg/drawRect.png)
+
+## Draw Circle  
+
+![Circle](./assets/images/readMeImg/Circle.png)  
+Click on this box to select the circle function  
+Click on the canvas to register the strating position of the circle  
+Drage the Cursor to form a circle  
+![Circle](./assets/image/readMeImg/circDraw.png)  
