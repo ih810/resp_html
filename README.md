@@ -68,3 +68,20 @@ Click on this box to select the circle function
 Click on the canvas to register the strating position of the circle  
 Drage the Cursor to form a circle  
 ![Circle](./assets/images/readMeImg/circDraw.png)  
+
+## Brush
+![Brush](./assets/images/readMeImg/Brush.png)  
+Click on this box to select the brush function  
+Paint the canvas with the desired brush effect  
+
+## Stamp
+![Stamp](./assets/images/readMeImg/Stamp.png)  
+Click on these boxes to select stamps  
+Click on the canvas to stamp your selected emoji  
+
+## Paint Bucket
+![Paint](./assets/images/readMeImg/Paint.png)  
+Click on this box to select the paint bucket function
+Click on any spaces or line to fill it with the selected color
+![Paint](./assets/images/readMeImg/fill)  
+![Paint](./assets/images/readMeImg/fill1)  
