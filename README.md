@@ -67,4 +67,4 @@ Drag the cursor to form a rectangel
 Click on this box to select the circle function  
 Click on the canvas to register the strating position of the circle  
 Drage the Cursor to form a circle  
-![Circle](./assets/image/readMeImg/circDraw.png)  
+![Circle](./assets/images/readMeImg/circDraw.png)  
