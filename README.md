@@ -45,9 +45,10 @@ Click on the canvas for the second time to set the contorl point of the arc
 #### Bezier curve  
 Bezier curve has two control point  
 
-![Curve](./assets/images/readMeImg/Curve.png)
+![Curve](./assets/images/readMeImg/Curve.png)  
 Click on this box to select the bezier curve function  
 Click on the canvas to register the starting position of the curve  
 Click on a second location to register the ending position of the curve
 Click on a third location to register the first control point  
-Click on a forth location to register the second control point
+Click on a forth location to register the second control point  
+![Curve](./assets/images/readMeImg/bCurve.png)  
