@@ -22,13 +22,32 @@ You can decide what you want to draw on the canvas.
 
 ### Line Function
 
-![Line](./assets/images/readMeImg/Line.png)
+![Line](./assets/images/readMeImg/Line.png)  
 Click on this box to select the line function  
-After you have selected the function,  
 Click on the canvas to register the starting position of the line  
-Then drag your cursor to create the line.  
+Then drag your cursor to form a straight line.  
+![Line](./assets/images/readMeImg/lineDraw.png)  
 
-### Curve Function
 
-![Curve] (./assets/images/readMeImg/Arc.png)
-![Curve] (./assets/images/readMeImg/Curve.png)
+### Curve Function  
+
+#### Quadratic curve  
+Quadratuc curve only have one control point  
+
+![Curve](./assets/images/readMeImg/Arc.png)  
+Click on this box to select the arc function  
+Click on the canvas to register the starting position of the arc  
+Drag your cursor to form a straight line  
+Click on the canvas for the second time to set the contorl point of the arc  
+![CurveDraw](./assets/images/readMeImg/arcDraw.png)  
+
+
+#### Bezier curve  
+Bezier curve has two control point  
+
+![Curve](./assets/images/readMeImg/Curve.png)
+Click on this box to select the bezier curve function  
+Click on the canvas to register the starting position of the curve  
+Click on a second location to register the ending position of the curve
+Click on a third location to register the first control point  
+Click on a forth location to register the second control point
