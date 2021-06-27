@@ -48,7 +48,15 @@ Bezier curve has two control point
 ![Curve](./assets/images/readMeImg/Curve.png)  
 Click on this box to select the bezier curve function  
 Click on the canvas to register the starting position of the curve  
-Click on a second location to register the ending position of the curve
+Click on a second location to register the ending position of the curve  
 Click on a third location to register the first control point  
 Click on a forth location to register the second control point  
 ![Curve](./assets/images/readMeImg/bCurve.png)  
+
+### Draw Rectangel
+
+![Rect](./assets/images/readMeImg/Rect.png)  
+Click on this box to select the rectangel function  
+Click on the canvas to register the starting position of the rectangel  
+Drag the cursor to form a rectangel  
+![Rect](./assets/images/readMeImg/drawRect.png)
