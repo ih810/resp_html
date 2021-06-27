@@ -21,7 +21,8 @@
         <link rel="stylesheet" href="asset/style.css">
         <script src="https://kit.fontawesome.com/43bdc5418e.js" crossorigin="anonymous"></script>
     </head>
-    <body data-spy="scroll" data-target="#navbarN">
+    <body>
+        <span class="loader"><span class="loader-inner"></span></span>
         <nav id="navbarN" class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
             <div class="container">
                 <a href="#id-home" class="navbar-brand"><img src="./asset/img/logo_transparent.png"></a>
@@ -34,7 +35,7 @@
                 aria-expanded="false"
                 aria-lable="Toggle Navbar"
                 >
-                    <span class="navbar-toggler-icon"> </span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="ms-auto" id="navbar-con">
@@ -100,7 +101,7 @@
                 </div>
                 <div class="row p-3">
                     <div class="col-lg-3 col-md-6 col-sm-12 p-2 d-flex justify-content-center">
-                        <div class="product" id="id-abt">
+                        <div class="product" id="id-abt1">
                             <div class="product-content">
                                 <h2 class="product-title">About Me</h2>
                                 <p class="product-body">You are literally looking at it, the button below will take you back to the top of this page, it is ill-adviced to press the said button. However, if you insist, nothing is stopping you.</p>
@@ -109,11 +110,11 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 p-2 d-flex justify-content-center" >
-                        <div class="product">
+                        <div class="product" id="id-abt2">
                             <div class="product-content">
                                 <h2 class="product-title">Product2</h2>
                                 <p class="product-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt minima consequatur, suscipit beatae inventore autem corporis consequuntur veritatis quidem ipsum.</p>
-                                <a href="https://www.urbandictionary.com/define.php?term=coming%20soon" target="_blank" class="product-btn">Coming soon</a>
+                                <a href="../p2/index.html" target="_blank" class="product-btn">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -181,10 +182,9 @@
             <section>                
                 <div class="row p-2">
                     <div class="slideshow-container col-md-6">
-                        <div class="mySlides fade">
+                        <!-- <div class="mySlides fade"> -->
                             <img class="slideImg" src="./asset/img/slide1.JPG" alt="s_mt">
-                        </div>
-            
+                        <!-- </div> -->
                         <!-- <div class="mySlides fade">
                             <img class="slideImg" src="./asset/img/slide2.JPG" alt="m_hat">
                         </div>
@@ -205,6 +205,62 @@
                 <h1 class="hidden">wtf</h1>
             </div>
         </div>
+        <div class="ttt">
+            <div class="ttt-head text-center p-5">
+                <h1 class="text-md">This is a Tic Tac Toe<br> Have Fun</h1>
+            </div>
+            <div class="flx tb">
+                <table class="ttt">
+                  <tbody>
+                    <tr>
+                      <td id="0" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="1" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="2" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td id="3" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="4" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="5" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td id="6" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="7" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                      <td id="8" class="field">
+                        <!-- <i class="far fa-circle"></i> -->
+                        <!-- <i class="fas fa-times"></i> -->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            <div class="text-center pb-5">
+                <button id="reload-btn" class="btn btn-primary">Start Again</button>
+            </div>
+        </div>
         <div id="id-contact"></div>
         <div class="contanct">
             <section>
@@ -213,10 +269,10 @@
                         <h2 class="text-lg">Contact Me</h2>
                         <p class="text-md">Dont be shy, I dont bite.</p>
                         <ul class="call-list">
-                            <li class="call-list-item"><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li></li>
-                            <li class="call-list-item"><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></li>
-                            <li class="call-list-item"><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
-                            <li class="call-list-item"><a href="#"><i class="far fa-envelope fa-3x"></i></i></a></li>
+                            <li class="call-list-item"><a href="https://www.instagram.com/hong______/" target="_blank" ><i class="fab fa-instagram fa-3x"></i></a></li></li>
+                            <li class="call-list-item"><a href="https://www.facebook.com/hai.x.ren" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                            <li class="call-list-item"><a href="https://github.com/ih810" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+                            <li class="call-list-item"><a href="mailto: ivanhong810@gmail.com"><i class="far fa-envelope fa-3x"></i></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -228,10 +284,15 @@
                 <p class="cp text-xsm m-0">There are actually no copyright in this page, if you want to copy it, be my guest</p>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <script src="./asset/app.js" type="text/javascript"></script>
         <script src="./asset/auto_album.js" type="text/javascript"></script>
+        <script src="./asset/game.js" type="text/javascript"></script>
     </body>
 </html>

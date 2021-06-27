@@ -8,7 +8,7 @@
  }
  
  .mySlides {
-    display: none;
+    /* display: none; */
     width: 100%;
  }
  
@@ -17,7 +17,7 @@
     object-fit: contain;
  }
   
- .fade {
+ /* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -32,5 +32,5 @@
  @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
- }
+ } */
  
