@@ -17,7 +17,18 @@ Polygon Sides: adjust the sides of your polygon, e.g. 3 = triangle
 
 ## Select your function
 
-After you have selected your color size, 
+After you have selected your color size,  
 You can decide what you want to draw on the canvas.
 
+### Line Function
+
 ![Line](./assets/images/readMeImg/Line.png)
+Click on this box to select the line function  
+After you have selected the function,  
+Click on the canvas to register the starting position of the line  
+Then drag your cursor to create the line.  
+
+### Curve Function
+
+![Curve] (./assets/images/readMeImg/Arc.png)
+![Curve] (./assets/images/readMeImg/Curve.png)
